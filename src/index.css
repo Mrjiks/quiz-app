@@ -148,6 +148,7 @@ main {
 }
 .quiz {
 	width: 90vw;
+	min-height: 100vh;
 	max-width: var(--max-width);
 	margin: 4rem auto;
 	background: var(--clr-white);
@@ -162,6 +163,11 @@ main {
 	text-align: center;
 	line-height: 1.5;
 	text-transform: none;
+}
+.question-text {
+	line-height: 1.5;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
 }
 .answer-btn {
 	display: block;

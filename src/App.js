@@ -54,7 +54,10 @@ function App() {
 				</div>
 				<article className='container'>
 					<p className='single-question'>Question:{index + 1}</p>
-					<h2 dangerouslySetInnerHTML={{ __html: question }} />
+					<p
+						dangerouslySetInnerHTML={{ __html: question }}
+						className='question-text'
+					/>
 					<div className='btn-container'>
 						{answers.map((answer, index) => {
 							return (
