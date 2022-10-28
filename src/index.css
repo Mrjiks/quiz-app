@@ -195,6 +195,7 @@ main {
 .correct-answers {
 	font-size: 1rem;
 	margin-left: 1rem;
+	margin-right: 1.5rem;
 	text-align: right;
 	text-transform: capitalize;
 	letter-spacing: var(--spacing);
@@ -214,7 +215,7 @@ main {
 	border-color: transparent;
 	padding: 0.25rem 0.5rem;
 	display: block;
-	width: 35%;
+	width: auto;
 	margin-left: auto;
 	margin-top: 2rem;
 	text-transform: capitalize;
