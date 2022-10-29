@@ -140,12 +140,21 @@ Quiz
 ===============
 */
 
+/* main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
 main {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
+	flex-direction: column;
 }
+
 .quiz {
 	width: 90vw;
 	min-height: 100vh;
