@@ -156,10 +156,10 @@ main {
 }
 
 .quiz {
-	width: 90vw;
+	width: 100vw;
 	min-height: 100vh;
 	max-width: var(--max-width);
-	margin: 4rem auto;
+	/* margin: 4rem auto; */
 	background: var(--clr-white);
 	border-radius: var(--radius);
 	padding: 3rem;
@@ -192,14 +192,15 @@ main {
 	padding: 0.5rem 0;
 	transition: var(--transition);
 }
-@media screen and (min-width: 576px) {
-	.answer-btn {
-		max-width: 60%;
-	}
-}
+
 .answer-btn:hover {
 	background: var(--clr-primary-5);
 	color: var(--clr-white);
+}
+
+.question-ans {
+	display: flex;
+	justify-content: space-around;
 }
 .correct-answers {
 	font-size: 1rem;
@@ -207,12 +208,8 @@ main {
 	margin-right: 1.5rem;
 	text-align: right;
 	text-transform: capitalize;
-	letter-spacing: var(--spacing);
+
 	color: var(--clr-green-dark);
-}
-.question-ans {
-	display: flex;
-	justify-content: space-around;
 }
 .next-question {
 	background: var(--clr-primary-9);
@@ -247,9 +244,11 @@ Form
 */
 
 .heading-app {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 	text-decoration: underline;
 	color: var(--clr-primary-5);
+	text-align: center;
+	font-size: small;
 }
 .single-question {
 	text-transform: capitalize;
@@ -287,6 +286,19 @@ Form
 .submit-btn {
 	width: 100%;
 	margin-top: 3rem;
+}
+
+@media screen and (min-width: 576px) {
+	.answer-btn {
+		max-width: 60%;
+	}
+	.heading-app {
+		margin-bottom: 1rem;
+		text-decoration: underline;
+		color: var(--clr-primary-5);
+		text-align: center;
+		font-size: large;
+	}
 }
 /*
 =============== 

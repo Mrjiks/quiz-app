@@ -47,7 +47,7 @@ function App() {
 					<h1 className='heading-app'>LEARN TODAY</h1>
 				</div>
 				<div className='question-ans'>
-					<h1>Questions:</h1>
+					<h4>Questions:</h4>
 					<p className='correct-answers'>
 						correct answer: {correct}/{questions.length}
 					</p>
